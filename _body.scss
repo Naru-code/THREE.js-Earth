@@ -1,0 +1,37 @@
+@use 'main';
+.hero {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: main.$main-font-color;
+  transform: translate(-50%,-50%);
+  text-align: center;
+
+  h1 {
+    font-size: 50px;
+    padding: 0px;
+  }
+
+  p {
+    font-size: 20px;
+  }
+
+  button {
+    color: main.$main-font-color;
+    margin: 30px;
+    padding: 20px 40px;
+    background-color: transparent;
+    border: main.$main-border white;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.4s;
+    &:hover{
+      color: black;
+      background-color: white;
+      border: main.$main-border black;
+    }
+  }
+}
+
+

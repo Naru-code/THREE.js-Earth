@@ -1,0 +1,29 @@
+@use 'main';
+
+header {
+  position: absolute;
+  top: 0;
+  color: main.$main-font-color;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  height: 10vh;
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  ul {
+    font-size: 20px;
+    list-style: none;
+    display: flex;
+  }
+
+  ul a {
+    color: main.$main-font-color;
+    text-decoration: none;
+    margin: 0 20px;
+  }
+}
+
